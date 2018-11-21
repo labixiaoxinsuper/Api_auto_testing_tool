@@ -3,14 +3,14 @@
 2）打开cookies.json，写入相应的信息；  
 3）打开data.json，写入相应的信息；  
 4）执行main.py；  
-5) 屏幕上会让输入一些必要的信息，带*部分，必须要用户手动输入参数。其他参数，可以按回车键，选择默认参数。
+5）屏幕上会让输入一些必要的信息，带*部分，必须要用户手动输入参数。其他参数，可以按回车键，选择默认参数。
 
 Operation steps:
 1) Open case.xls file, write some informations like url, run or not, method, headers, associate case and expect result and so on;
 2) Open cookies.json file, input cookies information;
 3) Open data.json file, input data information;
 4) Excute python main.py；  
-5）About the questions shown on the screen, the * questions are needed，otherwise，you can press enter and the deault value will be selected.
+5) About the questions shown on the screen, the * questions are needed，otherwise，you can press enter and the deault value will be selected.
 
 
 说明：  
