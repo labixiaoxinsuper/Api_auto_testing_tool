@@ -9,13 +9,12 @@ Operation steps:
 1) Open case.xls file, write some informations like url, run or not, method, headers, associate case and expect result and so on;
 2) Open cookies.json file, input cookies information;
 3) Open data.json file, input data information;
-4) Excute python main.py；
+4) Excute python main.py；  
 5）About the questions shown on the screen, the * questions are needed，otherwise，you can press enter and the deault value will be selected.
 
 
 说明：  
-case.xls的case用例，前三个是我用fiddler模拟出来，并不是真实存在的；  
-后面的case用例，是我在测试项目中，选出来的几个。你并不可以拿来直接运行。
+case.xls的case用例，前三个是我用fiddler模拟出来，并不是真实存在的；后面的case用例，是我在测试项目中，选出来的几个。你并不可以拿来直接运行。
 
 Explain:
 The cases shown on case.xls are not going to work directly from your side.
