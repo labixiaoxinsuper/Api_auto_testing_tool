@@ -31,7 +31,7 @@ def sendemail_func(smtp_server, send_user, password, receive_user_list, subject,
 
     message['Subject'] = subject
     message['From'] = send_user
-    message['To'] = ', '.join(receive_user_list)
+    message['To'] = ', '.join(receive_user_list)   # 对字典进行连接之后变成了字符串  list=['1','2','3','4','5']  print(''.join(list))  结果：12345  此处逗号或者分号都是可以的
     content = "此次一共运行接口个数为%s个，通过个数为%s个，失败个数为%s, 通过率为%s, 失败率为%s" % (run_num, pass_num, failed_num, pass_rate, failed_rate)
 
     message.attach(MIMEText(content,'plain','utf-8'))   # 加附件
